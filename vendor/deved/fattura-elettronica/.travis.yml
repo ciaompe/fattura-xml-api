@@ -1,0 +1,25 @@
+language: php
+
+sudo: false
+
+dist: precise
+
+php:
+  - 7.1
+  - 7.2
+  - 7.3
+  - nightly
+
+matrix:
+  fast_finish: true
+
+cache:
+  directories:
+  - $HOME/.composer/cache
+
+before_script:
+  - travis_retry composer self-update
+  - travis_retry composer install --no-interaction --prefer-dist
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

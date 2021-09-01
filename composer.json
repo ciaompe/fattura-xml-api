@@ -1,0 +1,14 @@
+{
+    "require": {
+        "deved/fattura-elettronica": "^1.1",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.4",
+        "cakephp/validation": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ciaompe\\": "ciaompe/"
+        }
+    }
+    
+}

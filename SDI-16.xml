@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica versione="FPR12" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://www.fatturapa.gov.it/export/fatturazione/sdi/fatturapa/v1.2/Schema_del_file_xml_FatturaPA_versione_1.2.xsd">
+ <FatturaElettronicaHeader>
+  <DatiTrasmissione>
+   <IdTrasmittente>
+    <IdPaese>IT</IdPaese>
+    <IdCodice>04763940238</IdCodice>
+   </IdTrasmittente>
+   <ProgressivoInvio>001</ProgressivoInvio>
+   <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+   <CodiceDestinatario>M5UXCR1</CodiceDestinatario>
+   <PECDestinatario>infolabdata@pec.it</PECDestinatario>
+  </DatiTrasmissione>
+  <CedentePrestatore>
+   <DatiAnagrafici>
+    <IdFiscaleIVA>
+     <IdPaese>IT</IdPaese>
+     <IdCodice>04763940238</IdCodice>
+    </IdFiscaleIVA>
+    <CodiceFiscale>04763940238</CodiceFiscale>
+    <Anagrafica>
+     <Denominazione>AXIS TECNOLOGIES SRLS</Denominazione>
+    </Anagrafica>
+    <RegimeFiscale>RF01</RegimeFiscale>
+   </DatiAnagrafici>
+   <Sede>
+    <Indirizzo>VIA VILLABELLA 18</Indirizzo>
+    <CAP>37047</CAP>
+    <Comune>SAN BONIFACIO</Comune>
+    <Provincia>VR</Provincia>
+    <Nazione>IT</Nazione>
+   </Sede>
+  </CedentePrestatore>
+  <CessionarioCommittente>
+   <DatiAnagrafici>
+    <IdFiscaleIVA>
+     <IdPaese>IT</IdPaese>
+     <IdCodice>03568670230</IdCodice>
+    </IdFiscaleIVA>
+    <CodiceFiscale>03568670230</CodiceFiscale>
+    <Anagrafica>
+     <Denominazione>INFOLAB DATA SRL</Denominazione>
+    </Anagrafica>
+   </DatiAnagrafici>
+   <Sede>
+    <Indirizzo>VIA VILLABELLA 18</Indirizzo>
+    <CAP>37047</CAP>
+    <Comune>SAN BONIFACIO</Comune>
+    <Provincia>VR</Provincia>
+    <Nazione>IT</Nazione>
+   </Sede>
+  </CessionarioCommittente>
+ </FatturaElettronicaHeader>
+ <FatturaElettronicaBody>
+  <DatiGenerali>
+   <DatiGeneraliDocumento>
+    <TipoDocumento>TD01</TipoDocumento>
+    <Divisa>EUR</Divisa>
+    <Data>2021-09-21</Data>
+    <Numero>45678</Numero>
+    <ImportoTotaleDocumento>1344.00</ImportoTotaleDocumento>
+   </DatiGeneraliDocumento>
+  </DatiGenerali>
+  <DatiBeniServizi>
+   <DettaglioLinee>
+    <NumeroLinea>1</NumeroLinea>
+    <Descrizione>Erp Development</Descrizione>
+    <Quantita>1.00</Quantita>
+    <UnitaMisura>pz</UnitaMisura>
+    <PrezzoUnitario>1000.00</PrezzoUnitario>
+    <PrezzoTotale>1000.00</PrezzoTotale>
+    <AliquotaIVA>22.00</AliquotaIVA>
+   </DettaglioLinee>
+   <DettaglioLinee>
+    <NumeroLinea>2</NumeroLinea>
+    <Descrizione>Erp Server</Descrizione>
+    <Quantita>1.00</Quantita>
+    <UnitaMisura>pz</UnitaMisura>
+    <PrezzoUnitario>100.00</PrezzoUnitario>
+    <PrezzoTotale>100.00</PrezzoTotale>
+    <AliquotaIVA>22.00</AliquotaIVA>
+   </DettaglioLinee>
+   <DatiRiepilogo>
+    <AliquotaIVA>22.00</AliquotaIVA>
+    <ImponibileImporto>1100.00</ImponibileImporto>
+    <Imposta>242.00</Imposta>
+    <EsigibilitaIVA>I</EsigibilitaIVA>
+   </DatiRiepilogo>
+  </DatiBeniServizi>
+  <DatiPagamento>
+   <CondizioniPagamento>TP02</CondizioniPagamento>
+   <DettaglioPagamento>
+    <ModalitaPagamento>MP05</ModalitaPagamento>
+    <DataScadenzaPagamento>2021-09-21</DataScadenzaPagamento>
+    <ImportoPagamento>1344.00</ImportoPagamento>
+   </DettaglioPagamento>
+  </DatiPagamento>
+ </FatturaElettronicaBody>
+</p:FatturaElettronica>
